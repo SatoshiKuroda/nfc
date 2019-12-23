@@ -1,0 +1,454 @@
+# この viminfo ファイルは Vim 8.0 によって生成されました.
+# 変更する際には十分注意してください!
+
+# Viminfo version
+|1,4
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/local_root
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+|2,0,1577106517,,"wq"
+:q
+|2,0,1577105636,,"q"
+:q!
+|2,0,1576943225,,"q!"
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/local_root
+|2,1,1577105618,47,"local_root"
+?/local_u
+|2,1,1577105496,47,"local_u"
+?/timezon
+|2,1,1576945698,47,"timezon"
+?/pathinfo
+|2,1,1576945680,47,"pathinfo"
+?/cgi.f
+|2,1,1576945603,47,"cgi.f"
+?/timezo
+|2,1,1576945537,47,"timezo"
+? \<PasswordAuthentication\>
+|2,1,1576944139,,"\\<PasswordAuthentication\\>"
+?/Pass
+|2,1,1576943825,47,"Pass"
+?/Per
+|2,1,1576943601,47,"Per"
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# デバッグ行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+""1	LINE	0
+	define('FS_METHOD','direct');
+|3,1,1,1,1,0,1576951383,"define('FS_METHOD','direct');"
+"2	CHAR	0
+	server {
+	    listen       80;
+	    server_name  localhost;
+	
+	    #charset koi8-r;
+	    #access_log  /var/log/nginx/host.access.log  main;
+	
+	    location / {
+	        root   /usr/share/nginx/html;
+	        index  index.html index.htm;
+	    }
+	
+	    #error_page  404              /404.html;
+	
+	    # redirect server error pages to the static page /50x.html
+	    #
+	    error_page   500 502 503 504  /50x.html;
+	    location = /50x.html {
+	        root   /usr/share/nginx/html;
+	    }
+	
+	    # proxy the PHP scripts to Apache listening on 127.0.0.1:80
+	    #
+	    #location ~ \.php$ {
+	    #    proxy_pass   http://127.0.0.1;
+	    #}
+	
+	    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+	    #
+	    #location ~ \.php$ {
+	    #    root           html;
+	    #    fastcgi_pass   127.0.0.1:9000;
+	    #    fastcgi_index  index.php;
+	    #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;
+	    #    include        fastcgi_params;
+	    #}
+	
+	    # deny access to .htaccess files, if Apache's document root
+	    # concurs with nginx's one
+	    #
+	    #location ~ /\.ht {
+	    #    deny  all;
+	    #}
+	}
+	
+|3,0,2,0,45,0,1576945806,"server {","    listen       80;","    server_name  localhost;","","    #charset koi8-r;","    #access_log  /var/log/nginx/host.access.log  main;","","    location / {","        root   /usr/share/nginx/html;","        index  index.html index.htm;","    }","","    #error_page  404              /404.html;","","    # redirect server error pages to the static page /50x.html","    #","    error_page   500 502 503 504  /50x.html;",>28
+|<"    location = /50x.html {","        root   /usr/share/nginx/html;","    }","","    # proxy the PHP scripts to Apache listening on 127.0.0.1:80","    #","    #location ~ \\.php$ {","    #    proxy_pass   http://127.0.0.1;","    #}","","    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000","    #","    #location ~ \\.php$ {","    #    root           html;","    #    fastcgi_pass   127.0.0.1:9000;","    #    fastcgi_index  index.php;",>72
+|<"    #    fastcgi_param  SCRIPT_FILENAME  /scripts$fastcgi_script_name;","    #    include        fastcgi_params;","    #}","","    # deny access to .htaccess files, if Apache's document root","    # concurs with nginx's one","    #","    #location ~ /\\.ht {","    #    deny  all;","    #}","}",""
+
+# ファイルマーク:
+'0  148  23  /etc/vsftpd.conf
+|4,48,148,23,1577106517,"/etc/vsftpd.conf"
+'1  143  0  /etc/vsftpd.conf
+|4,49,143,0,1577105640,"/etc/vsftpd.conf"
+'2  143  0  /etc/vsftpd.conf
+|4,50,143,0,1577105640,"/etc/vsftpd.conf"
+'3  1  0  /etc/vsftpd.chroot_list
+|4,51,1,0,1577104615,"/etc/vsftpd.chroot_list"
+'4  6  30  /etc/nginx/conf.d/default.conf
+|4,52,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+'5  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,53,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+'6  94  0  ~/www/wordpress/wp-config.php
+|4,54,94,0,1576951387,"~/www/wordpress/wp-config.php"
+'7  95  28  ~/www/wordpress/wp-config.php
+|4,55,95,28,1576951280,"~/www/wordpress/wp-config.php"
+'8  95  28  ~/www/wordpress/wp-config.php
+|4,56,95,28,1576951280,"~/www/wordpress/wp-config.php"
+'9  1  3  /etc/vsftpd.chroot_list
+|4,57,1,3,1576951081,"/etc/vsftpd.chroot_list"
+
+# ジャンプリスト (新しいものが先):
+-'  148  23  /etc/vsftpd.conf
+|4,39,148,23,1577106517,"/etc/vsftpd.conf"
+-'  143  0  /etc/vsftpd.conf
+|4,39,143,0,1577106241,"/etc/vsftpd.conf"
+-'  143  0  /etc/vsftpd.conf
+|4,39,143,0,1577105640,"/etc/vsftpd.conf"
+-'  121  7  /etc/vsftpd.conf
+|4,39,121,7,1577105618,"/etc/vsftpd.conf"
+-'  121  7  /etc/vsftpd.conf
+|4,39,121,7,1577105618,"/etc/vsftpd.conf"
+-'  156  0  /etc/vsftpd.conf
+|4,39,156,0,1577105496,"/etc/vsftpd.conf"
+-'  156  0  /etc/vsftpd.conf
+|4,39,156,0,1577105496,"/etc/vsftpd.conf"
+-'  1  0  /etc/vsftpd.chroot_list
+|4,39,1,0,1577104615,"/etc/vsftpd.chroot_list"
+-'  1  0  /etc/vsftpd.chroot_list
+|4,39,1,0,1577104615,"/etc/vsftpd.chroot_list"
+-'  1  0  /etc/vsftpd.chroot_list
+|4,39,1,0,1577104615,"/etc/vsftpd.chroot_list"
+-'  1  0  /etc/vsftpd.chroot_list
+|4,39,1,0,1577104615,"/etc/vsftpd.chroot_list"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  6  30  /etc/nginx/conf.d/default.conf
+|4,39,6,30,1576976457,"/etc/nginx/conf.d/default.conf"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  7403  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,7403,0,1576951590,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  1  0  ~/www/wordpress/wp-includes/functions.php
+|4,39,1,0,1576951490,"~/www/wordpress/wp-includes/functions.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  94  0  ~/www/wordpress/wp-config.php
+|4,39,94,0,1576951387,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  0  ~/www/wordpress/wp-config.php
+|4,39,95,0,1576951381,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  95  28  ~/www/wordpress/wp-config.php
+|4,39,95,28,1576951280,"~/www/wordpress/wp-config.php"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+-'  1  3  /etc/vsftpd.chroot_list
+|4,39,1,3,1576951081,"/etc/vsftpd.chroot_list"
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> /etc/vsftpd.conf
+	*	1577106516	0
+	"	148	23
+	^	148	24
+	.	60	22
+	+	31	0
+	+	99	0
+	+	100	0
+	+	122	0
+	+	123	0
+	+	125	0
+	+	131	0
+	+	156	29
+	+	157	17
+	+	35	0
+	+	14	9
+	+	22	13
+	+	48	19
+	+	60	22
+
+> /etc/vsftpd.chroot_list
+	*	1577104610	0
+	"	1	0
+	^	1	4
+	.	1	3
+	+	1	3
+	i	1	0
+
+> ~/www/wordpress/wp-includes/functions.php
+	*	1576951589	0
+	"	7403	0
+
+> ~/www/wordpress/wp-config.php
+	*	1576951385	0
+	"	94	0
+	.	95	0
+	+	94	44
+	+	95	0
+
+> ~/www/wordpress/wordpress/wp-config.php
+	*	1576948791	0
+	"	91	0
+	^	91	0
+	.	90	44
+	+	90	44
+
+> /etc/php/7.2/fpm/pool.d/www.conf
+	*	1576946934	0
+	"	48	19
+	^	48	20
+	.	48	19
+	+	23	11
+	+	24	12
+	+	47	19
+	+	48	19
+
+> /etc/nginx/conf.d/default.conf
+	*	1576946454	0
+	"	6	30
+	^	21	1
+	.	21	0
+	+	1	0
+	+	2	0
+	+	21	0
+
+> /usr/share/nginx/html/index.php
+	*	1576946251	0
+	"	2	0
+	^	2	0
+	.	1	19
+	+	1	19
+
+> /etc/php/7.2/fpm/php.ini
+	*	1576945715	0
+	"	936	0
+	^	936	0
+	.	936	0
+	+	773	17
+	+	936	0
+
+> /etc/php/7.2/cli/php.ini
+	*	1576945641	0
+	"	773	0
+	^	773	0
+	.	773	0
+	+	937	0
+	+	774	0
+	+	773	0
+
+> /etc/mysql/conf.d/mysql.cnf
+	*	1576945309	0
+	"	7	28
+	^	7	29
+	.	7	28
+	+	2	26
+	+	7	28
+
+> /etc/mysql/conf.d/mysqldump.cnf
+	*	1576945191	0
+	"	6	0
+	^	6	0
+	.	5	26
+	+	5	26
+
+> /etc/mysql/my.cnf
+	*	1576945063	0
+	"	17	0
+
+> /etc/ssh/sshd_config
+	*	1576944332	0
+	"	13	7
+	^	13	8
+	.	13	7
+	+	32	17
+	+	56	0
+	+	57	0
+	+	13	7
+
+> ~/.vimrc
+	*	1576943444	0
+	"	129	4
+	^	129	5
+	.	129	4
+	+	1	10
+	+	129	4
